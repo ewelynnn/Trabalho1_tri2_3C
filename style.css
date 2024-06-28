@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root{
+    --branco: rgb(255, 255, 255);
+    --cor-de-fundo: hwb(296 41% 27%);
+    --cor-do-texto: hwb(213 80% 6%);
+    --fundo-texto: #b07deb;
+    --fundo-texto2: #7638f1;
+    --borda: #bc9a4b;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+   
+body{
+    color: var(--cor-do-texto);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto-mono);
+}
+
+
+.titulo-principal{
+    background-color: var(--fundo-texto);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+    background-color: var(--fundo-texto);
+}
+
+.checkbox{
+    color: rgb(220, 213, 224);
+    background-color: var(--fundo-texto2);
+    margin-top: 12px;
+    padding: 10px;
+}
